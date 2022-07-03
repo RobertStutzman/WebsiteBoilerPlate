@@ -1,0 +1,23 @@
+{
+  "name": "websiteboilerplate",
+  "version": "1.0.0",
+  "description": "Boiler Plate ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertStutzman/WebsiteBoilerPlate.git"
+  },
+  "keywords": [
+    "Boiler",
+    "Plate"
+  ],
+  "author": "Robert Stutzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertStutzman/WebsiteBoilerPlate/issues"
+  },
+  "homepage": "https://github.com/RobertStutzman/WebsiteBoilerPlate#readme"
+}
