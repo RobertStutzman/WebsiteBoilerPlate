@@ -4,7 +4,9 @@
   "description": "Boiler Plate ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run development",
+    "development": "webpack serve --progress --config webpack.config.development.js",
+    "build": "webpack --progress --config webpack.config.build.js" 
   },
   "repository": {
     "type": "git",
