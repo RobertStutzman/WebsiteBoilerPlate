@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run development",
     "development": "webpack serve --progress --config webpack.config.development.js",
-    "build": "webpack --progress --config webpack.config.build.js" 
+    "build": "webpack --progress --config webpack.config.build.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/RobertStutzman/WebsiteBoilerPlate/issues"
   },
-  "homepage": "https://github.com/RobertStutzman/WebsiteBoilerPlate#readme"
+  "homepage": "https://github.com/RobertStutzman/WebsiteBoilerPlate#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
+  }
 }
